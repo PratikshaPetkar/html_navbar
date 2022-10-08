@@ -26,8 +26,8 @@ header {
 }
 .logo {
   /* cursor: pointer; */
-  /* background-color: purple; */
-  /* margin: 50px;
+/* background-color: purple; */
+/* margin: 50px;
 }
 .link {
   list-style: none;
@@ -60,7 +60,7 @@ top:40px; */
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.5s ease 0s; */
-  /* margin-left: 50px;
+/* margin-left: 50px;
 }
 button:hover {
   background-color: rgba(155, 150, 169, 166);
@@ -69,8 +69,8 @@ button:hover {
   display: flex;
   align-items: center;
   /* padding: 50px 50px; */
-  /* margin-right:  20px; */
-/* }  */ 
+/* margin-right:  20px; */
+/* }  */
 /* .Login{
 margin: 10px 20px;
 } */
@@ -83,48 +83,49 @@ body {
   background-color: lightblue;
   background-image: url("./images/hero.png");
   background-size: cover;
-  font-family: "poppins",sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 20px;
 
 }
 
-h2{
+h2 {
   font-size: 20px;
 }
 
-
-.logo{
+.logo {
   background-color: purple;
- }
- .hero{
+}
+.hero {
   /* background-color: brown; */
   /* display: flex; */
   /* width: 100vw;
   height: 100vh;
    */
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   margin-top: 300px;
-   width: 100vw;
-
-} 
-h2,h3{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 300px;
+  width: 100vw;
+}
+h2,
+h3,
+h4,
+p {
   color: aliceblue;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   margin: 50px;
 }
-.nav{
+.nav {
   display: flex;
   align-items: center;
   margin: 10px;
 }
- button{
- /* display: flex; */
-   align-items: center;
-  justify-content: center; 
+button {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
   padding: 1em;
   margin-top: 50px;
   margin-left: auto;
@@ -133,19 +134,32 @@ h2,h3{
   border: 3px solid black;
   /* color: black;
   background-color: black */
-  border-radius: 10px; 
- }  
- .logo h2{
-margin-left: 0.5rem;
-font-size: 1rem;
- }
- .btn1{
- color:white;
+  border-radius: 10px;
+}
+.logo h2 {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+.btn1 {
+  color: white;
   /* text-shadow: white; */
-  background-color: black
- }
- .btn2{
+  background-color: black;
+}
+.btn2 {
   color: white;
   background-color: orangered;
   margin-left: 50px;
- }
+}
+
+.positions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  width: auto;
+}
+.submain {
+  display: flex;
+  padding: 10px 30px;
+  margin: 10px 20px;
+}
